@@ -1,0 +1,9 @@
+Q1: What happens if users choose “Cancel”? 
+  Khi chọn Cancel sẽ hiện bảng thông báo có kết quả giống chọn "NO"
+
+
+Q2: How to customize the options to users, e.g. only two options: “Yes” and “No”, OR “I do” and “I don’t” (Suggestion: Use Javadocs or using Eclipse/Netbean IDE help). 
+- Tạo biến lựa chọn giới hạn giá trị tại Yes và No
+ -Để tùy chỉnh lựa chọn của người dùng, ví dụ chỉ có 2 lựa chọn “Yes” và “No”, ta dùng phương thức showOptionDialog của lớp JOptionPane 
+- Sử dụng hàm điều kiện If kiểm tra điều kiện tương ứng ở hai bước trên để xác định cụ thể nội dung hộp thoại trả về
+Cụ thể tại file soure ChoseYesNo
